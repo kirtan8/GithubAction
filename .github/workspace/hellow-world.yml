@@ -6,7 +6,7 @@ on:
 jobs:
  first-hello-world-job:
   runs-on: ubuntu-latest
-   steps:
+  steps:
      - name: chcekout code
        users: actions/checkout@v3
      - name: Print message
